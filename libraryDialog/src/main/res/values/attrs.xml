@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--气泡pop弹框控件2-->
+    <declare-styleable name="BubbleLayout">
+        <attr name="lookAt">
+            <enum name="bubbleLeft"   value="1"/>
+            <enum name="bubbleTop"    value="2"/>
+            <enum name="bubbleRight"  value="3"/>
+            <enum name="bubbleBottom" value="4"/>
+        </attr>
+
+        <attr name="bubbleLookPosition" format="dimension"/>
+        <attr name="bubbleLookWidth"    format="dimension"/>
+        <attr name="bubbleLookLength"   format="dimension"/>
+        <attr name="bubbleColor"  format="color"/>
+        <attr name="bubbleRadius" format="dimension"/>
+        <attr name="bubblePadding2" format="dimension"/>
+        <attr name="bubbleShadowRadius" format="dimension"/>
+        <attr name="bubbleShadowX"      format="dimension"/>
+        <attr name="bubbleShadowY"      format="dimension"/>
+        <attr name="bubbleShadowColor2"  format="color"/>
+    </declare-styleable>
+</resources>

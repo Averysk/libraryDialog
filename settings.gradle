@@ -1,0 +1,3 @@
+include ':libraryDialog'
+include ':app'
+rootProject.name = "DemoDialog"
